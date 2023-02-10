@@ -1,0 +1,317 @@
+.xd-cat_slider .btn-c {
+    background: white;
+    box-shadow: 0px 0px 20px rgb(118 118 118 / 30%);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: all ease-in-out 450ms;
+    top: 50%;
+    position: absolute;
+    z-index: 11;
+    cursor: pointer;
+}
+.xd-cat_slider .btn-c:hover {
+    transform: scale(1.13);
+}
+.box-readmore a.btn-card:hover {
+    transform: scale(1.13);
+}
+.xd-cat_slider .swiper-button-nextx.btn-c {
+    right: 0;
+}
+.box-readmore a.btn-card {
+    background: #0074bc;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(118 118 118 / 16%);
+}
+.post-card-two .main-object .object-2 {
+    background: #fff;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 1em 2em 2em;
+    margin-top: -9px;
+}
+.box-readmore {
+    position: absolute;
+    bottom: -25px;
+}
+.post-card-two .main-object .box-info_column .object-2 {
+    padding: 0;
+}
+.box-title h3 a {
+    font-size: 18px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    position: relative;
+    overflow: hidden;
+    color: #000;
+}
+.box-title h3{
+    margin: 0 auto;
+}
+.main-slider_post .swiper-paginationx {
+    position: absolute;
+    left: 16em;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    bottom: -60px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #d0d1d3;
+}
+.main-slider_post .swiper-paginationx > span.swiper-pagination-current {
+    color: #d0d1d3;
+    padding-right: 5px;
+}
+.main-slider_post .swiper-paginationx > span.swiper-pagination-total {
+    padding-left: 2px;
+    color: #0074bc;
+}
+article.post-card-two {
+    padding: 3em 0;
+}
+article.post-card-two .main-object {
+    position: relative;
+    box-shadow: 0px 0px 25px rgb(118 118 118 / 16%);
+}
+article.post-card-two .box-info_column svg {
+    width: 15px;
+    margin-right: 5px;
+}
+article.post-card-two .box-info_column .main-object {
+    display: grid;
+    grid-gap: 8px;
+    align-items: center;
+    box-shadow: none;
+}
+article.post-card-two .box-info_column .main-object span.calendar-text {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    font-size: 14px;
+    color: #4B4B4B;
+    align-items: normal;
+}
+/* .main-slider_post .xd-cat_slider .swiper-slide-active article.post-card-two {
+    transform: scale(1.1);
+    transition: all ease-in-out 350ms;
+    padding: 4em 2em;
+} */
+.main-slider_post .xd-cat_slider article.post-card-two {
+    transform: scale(0.96);
+}
+.main-slider_post .xd-cat_slider {
+    padding: 0 20em;
+}
+.main-slider_post .xd-cat_slider .swiper-slide-active article.post-card-two .main-object, .main-slider_post .xd-cat_slider .swiper-slide-next article.post-card-two .main-object,  .main-slider_post .xd-cat_slider .swiper-slide-prev article.post-card-two .main-object {
+    filter: grayscale(0) !important;
+}
+.main-slider_post .xd-cat_slider .swiper-slide article.post-card-two .main-object {
+    filter: grayscale(1);
+}
+.main-slider_post .xd-cat_slider .swiper-slide article.post-card-two .main-object .object-2 {
+    display: none;
+}
+.main-slider_post .xd-cat_slider .swiper-slide-active article.post-card-two .main-object .object-2, .main-slider_post .xd-cat_slider .swiper-slide-next article.post-card-two .main-object .object-2,  .main-slider_post .xd-cat_slider .swiper-slide-prev article.post-card-two .main-object .object-2 {
+    display: grid;
+}
+.main-slider_post .xd-cat_slider .swiper-slide article.post-card-two .main-object .object-1 img {
+    width: 100%;
+    height: 365px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.main-slider_post .xd-cat_slider .swiper-slide-active article.post-card-two .main-object .object-1 img, .main-slider_post .xd-cat_slider .swiper-slide-next article.post-card-two .main-object .object-1 img, .main-slider_post .xd-cat_slider .swiper-slide-prev article.post-card-two .main-object .object-1 img {
+    height: auto;
+    border-radius: 0;
+}
+.post-card-two .box-cat span.day {
+    font-size: 37px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+}
+.post-card-two .box-cat .cat-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 35%);
+}
+.post-card-two .box-cat .cat-text span.m-y {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.post-card-two .box-title h3 a:hover {
+    color: #0074bc;
+}
+span.calendar-text i.mec-sl-location-pin, span.calendar-text h3 {
+    display: none;
+}
+span.calendar-text dl {
+    margin: 0;
+}
+span.calendar-text dd {
+    margin: 0;
+}
+span.calendar-text dd address {
+    margin: 0;
+    display: none;
+}
+.box-term span.term {
+    font-size: 14px;
+    background: #e1e1e1;
+    border-radius: 7px;
+    padding: 4px 15px;
+    display: block;
+    color: #000;
+    text-align: center;
+}
+.box-term {
+    padding: 11px 0;
+}
+.calendar-text .time-box .mec-single-event-time i, .calendar-text .time-box .mec-single-event-time h3 {
+    display: none;
+}
+.flex-x {
+    display: inline-block;
+}
+.flex-x div {
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+.flex-x div abbr.mec-events-abbr {
+    border: 0;
+    text-decoration: unset;
+}
+.flex-x .day-box:after,.flex-x .time-box:after {
+    content: ',';
+    display: inline-block;
+    padding-right: 2px;
+}
+/*destop medium*/
+@media (max-width: 1600px){
+}
+/*laptop*/
+@media (max-width: 1280px){
+    .main-slider_post .xd-cat_slider {
+        padding: 0 5em;
+    }
+    .main-slider_post .swiper-paginationx {
+        position: absolute;
+        left: 16em;
+        bottom: -60px;
+    }
+}
+/*ipad pro (large tablet)*/
+@media (max-width: 1024px) and (min-width: 992px){
+}
+/*ipad (tablet)*/
+@media (max-width: 991.98px) {
+    .main-slider_post .xd-cat_slider {
+        padding: 0;
+    }
+    .post-card-two .main-object .object-2 {
+        padding: 1em 1em 1.5em;
+        margin-top: -9px;
+    }
+    .xd-cat_slider .swiper-button-prevx.btn-c {
+        left: -15px;
+    }
+    .xd-cat_slider .swiper-button-nextx.btn-c {
+        right: -15px;
+    }
+    article.post-card-two {
+        padding: 1em 0 1em;
+    }
+    .main-slider_post .swiper-paginationx {
+        position: relative;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        bottom: 0;
+        font-size: 18px;
+    }
+    .box-title h3 a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .main-slider_post .xd-cat_slider {
+        padding: 0 0;
+    }
+    .main-slider_post .xd-cat_slider article.post-card-two {
+        transform: scale(1) !important;
+        transition: all ease-in-out 350ms;
+        padding: 2em 0 !important;
+    }
+    .xd-cat_slider .btn-c {
+        height: 35px;
+        width: 35px;
+    }
+    .xd-cat_slider .btn-c svg {
+        width: 19px;
+    }
+    .main-slider_post .xd-cat_slider .swiper-slide article.post-card-two .main-object .object-2 {
+        display: grid;
+    }
+    .main-slider_post .xd-cat_slider .swiper-slide article.post-card-two .main-object .object-1 img {
+        height: auto;
+    }
+}
+/*iphone8 (smartphone)*/
+@media (max-width: 575.98px) {
+    .xd-cat_slider .swiper-button-prevx.btn-c {
+        left: -15px;
+    }
+    .xd-cat_slider .swiper-button-nextx.btn-c {
+        right: -15px;
+    }
+    article.post-card-two {
+        padding: 1em 0 1em;
+    }
+    .main-slider_post .swiper-paginationx {
+        position: relative;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        bottom: 0;
+        font-size: 18px;
+    }
+    .box-title h3 a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .main-slider_post .xd-cat_slider {
+        padding: 0 0;
+    }
+    .main-slider_post .xd-cat_slider article.post-card-two{
+        transform: scale(1);
+    }
+    .main-slider_post .xd-cat_slider .swiper-slide-active article.post-card-two {
+        transform: scale(1);
+        transition: all ease-in-out 350ms;
+        padding: 2em 0;
+    }
+    .xd-cat_slider .btn-c {
+        height: 35px;
+        width: 35px;
+    }
+    .xd-cat_slider .btn-c svg {
+        width: 19px;
+    }
+}
+/*iphone5 (small smartphone)*/
+@media (max-width: 360px) {
+}

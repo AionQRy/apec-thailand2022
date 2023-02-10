@@ -1,0 +1,227 @@
+::selection {
+  background: #df5936;
+  color: #fff;
+}
+::-moz-selection {
+  background: #df5936;
+  color: #fff;
+}
+
+.toggle-icon svg {
+  width: 19px;
+  margin-bottom: -7px;
+  cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+p {
+  margin: 0;
+  /* transition: all ease-in-out 450ms !important;
+  -webkit-transition: all ease-in-out 450ms !important;
+  -o-transition: all ease-in-out 450ms !important;
+  -moz-transition: all ease-in-out 450ms !important;
+  text-decoration: unset; */
+  /*line-height: 1.6em;*/
+}
+a, button, input, textarea, span.jet-menu-label, input[type="submit"], i{
+   /* transition: all ease-in-out 450ms !important;
+   -webkit-transition: all ease-in-out 450ms !important;
+   -o-transition: all ease-in-out 450ms !important;
+   -moz-transition: all ease-in-out 450ms !important;
+   text-decoration: unset; */
+}
+a{
+  color: #000;
+  font-weight: 500;
+  /* text-decoration: underline;
+  text-decoration-color: #f1c40f; */
+}
+a:hover{
+  color: #f1c40f;
+  /* text-decoration: underline;
+  text-decoration-color: #f1c40f; */
+}
+body {
+  margin: 0;
+}
+body.admin-bar .site-header {
+  top: 0;
+}
+/* @keyframes slidein {
+  from {
+    right: 0;
+    transform: translateX(600px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideup {
+  from {
+    right: 0;
+    transform: translateY(-600px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes slideout {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    right: 0;
+    transform: translateX(600px);
+  }
+} */
+/*header*/
+.toggle-search {
+  display: block;
+  position: absolute;
+  right: 25px;
+}
+.toggle-search .toggle-icon i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+.popup_search {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background: rgb(0 0 0 / 84%);
+  z-index: 9999;
+  display: none;
+  transition: all ease-in-out 350ms;
+}
+.popup_search .box-search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form.search-panel {
+  max-width: 400px;
+  width: 100%;
+}
+form.search-panel .main-object {
+  display: flex;
+  align-content: flex-end;
+  width: 100%;
+}
+form.search-panel .main-object input {
+  height: 50px;
+  border: 0;
+  border-bottom: 2px
+solid #fff;
+  border-radius: 0;
+  width: 100%;
+  color: #000;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+}
+form.search-panel .main-object button {
+  height: 50px;
+  background: transparent;
+  color: #FFF;
+  border: 0;
+  border-bottom: 2px solid;
+  border-radius: 0;
+  padding: 0;
+}
+form.search-panel .main-object button i {
+  font-size: 21px;
+}
+form.search-panel .main-object .object-1 {
+  width: 100%;
+}
+form.search-panel .main-object button:hover i {
+  background: #000;
+  color: #fff;
+}
+form.search-panel .main-object button i {
+  padding: 10px;
+  border-radius: 50px;
+}
+.cancel-btn_search {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.cancel-btn_search i:hover {
+  color: #fff;
+  background: #f44336;
+}
+.popup_search.active {
+  display: block;
+  height: 100%;
+  transition: all ease-in-out 350ms;
+}
+
+
+form.search-panel .main-object button svg {
+  width: 22px;
+  margin-bottom: -10px;
+  color: #FFF;
+}
+.cancel-btn_search .icon_cancel svg {
+  cursor: pointer;
+  width: 24px;
+  display: none;
+  color: #FFF;
+}
+
+
+.cancel-btn_search svg.active {
+  display: flex;
+}
+#nsl-custom-login-form-1 .nsl-container-um-login-layout-below-separator {
+clear: both;
+margin: 0 auto;
+text-align: center;
+}
+/*destop medium*/
+@media (max-width: 1600px){
+}
+/*laptop*/
+@media (max-width: 1280px){
+}
+/*ipad pro (large tablet)*/
+@media (max-width: 1024px) and (min-width: 992px){
+}
+/*ipad (tablet)*/
+@media (max-width: 991.98px) {
+.toggle-search {
+    position:relative;
+  margin-left: 20px;
+ }
+}
+/*iphone8 (smartphone)*/
+@media (max-width: 575.98px) {
+  .cancel-btn_search {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+  form.search-panel {
+      width: 85%;
+  }
+  .toggle-search {
+    position:relative;
+  margin-left: 20px;
+ }
+
+}
+/*iphone5 (small smartphone)*/
+@media (max-width: 360px) {
+}

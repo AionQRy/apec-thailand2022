@@ -1,0 +1,29 @@
+ul.acf-radio-list img {
+    width: 265px;
+    object-fit: cover;
+    object-position: top;
+    height: 265px;
+    border: solid 3px #ddd;
+}
+.theme-settings_page_acf-options-footer ul.acf-radio-list img{
+  object-position: bottom;
+}
+
+ul.acf-radio-list li label.selected img {
+    border: solid 3px #01af56;
+}
+
+ul.acf-radio-list li{
+  display: inline-block;
+      margin: 5px;
+      text-align: center;
+}
+
+ul.acf-radio-list input{
+  display: none;
+}
+
+ul.acf-radio-list span {
+  font-weight: bold;
+    display: block;
+}
